@@ -1,0 +1,15 @@
+.left_navbar {
+  margin-left: 0px; margin-right: 0px; width: 200px; left: 0px; top: 50px;
+}
+
+.right_navbar {
+  margin-right: 0px; margin-right: 0px; width: 200px; right: 0px; top: 50px;
+}
+
+.search_width {
+  width:350px;
+}
+
+.navbar_color{
+  color: #3b5998;
+}

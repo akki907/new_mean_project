@@ -3,11 +3,14 @@ var mongoose = require('mongoose');
 
 var Schema = mongoose.Schema;
 
-var UserSchema = new Schema({
-  name:String,
-  age:Number
+var BlogSchema = new Schema({
+  title:String,
+  // age:Number
+  description:String,
+  createdDate: {type : Date , default : Date.now},
+  coverImage: String
 });
 
-var model = mongoose.model('Users', UserSchema);
+var model = mongoose.model('Blog', BlogSchema);
 
 module.exports = model;
